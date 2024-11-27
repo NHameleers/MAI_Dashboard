@@ -11,4 +11,7 @@ st.write(
 
 df = pd.read_csv('https://raw.githubusercontent.com/LUCE-Blockchain/Databases-for-teaching/refs/heads/main/Framingham%20Dataset.csv')
 
-st.dataframe(df.SEX.value_counts())
+# st.write(df.columns)
+
+st.scatter_chart(data=df, x='AGE', y='SYSBP')
+
