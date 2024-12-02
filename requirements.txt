@@ -1,6 +1,2 @@
 streamlit
-<<<<<<< HEAD
 matplotlib
-=======
-matplotlib
->>>>>>> 22a4b41 (first commit)
